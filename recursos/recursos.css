@@ -1,0 +1,23 @@
+#logo{
+    float: left;
+}
+
+footer{
+    margin-top: 400px;
+    margin-left: 10px;
+    border: solid 2px;
+
+}
+#UbiPie{
+    float: left;
+    margin-right: 300px;
+    border-right: solid 2px;
+}
+#ContPie{
+   float: right;
+}
+#LinksPie{
+    float: left;
+    
+    margin-top: 15px;
+}
