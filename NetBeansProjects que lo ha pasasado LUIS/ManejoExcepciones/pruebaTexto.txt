@@ -1,9 +1,0 @@
-Primera línea
-Segunda línea
-Tercera línea
-Esto se acaba
-
-
-
-Ya si se acaba
-He acabado de leer el fichero
