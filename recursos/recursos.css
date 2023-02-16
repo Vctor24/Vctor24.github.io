@@ -1,10 +1,7 @@
 body{
     background-color: #858585;
 }
-#logo{
-    float: left;
-    margin-left: 35%;
-}
+
 
 *{
     margin: 0;
@@ -14,10 +11,11 @@ body{
 header{
     width: 100%;
     background-color: #20202d;
-    
+    overflow: hidden;
+    height: 90px;
 }
 #menu {
-    
+    padding-top: 5px;
     height: 81px;
     margin: auto;
 }
@@ -27,13 +25,13 @@ header{
     overflow: hidden;
 }
 #menu ul li {
-    justify-content: center;
-    float: left;
+    
+    float: right;
   }
 #menu ul li a {
     display: block;
     color: white;
-    align-items: center;
+ 
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -42,24 +40,31 @@ header{
 #menu ul li a:hover {
     background-color: #59cbe8;
 }
+
+    
+#logo{
+    padding-top: 10px;
+    float: left;
+}    
+
 #logo img{
-    width: 81px;
-    height: 80px;
+    width: 75px;
+    height: 74px;
+   
 }
 article{
     background-color: white;
-    width: 50%;
+    width: 70%;
+    margin: auto;
+    padding: 0;
+    
 }
 h1{
-    width: 50%;
+    width: 70%;
     color: #20202d;
     text-align: center;
     text-decoration: underline;
-    padding: 0;
-    margin: 0;
-    border: solid 2px black;
-    align-self: center;
-
+    margin-top: 10px;
 }
 b{
     color: #59cbe8;
@@ -75,26 +80,23 @@ footer{
 }
 #UbiPie{
     float: left;
-    margin-right: 300px;
+    margin-right: 20%;
     border-right: solid 4px #59cbe8;
     padding-right: 15px;
+    
 }
 #ContPie{
    float: right;
    border-left: solid 4px #59cbe8;
    padding-left: 15px;
 }
-#LinksPie a{
+#LinksPie{
     float: left;
-    
-    padding-left: 70px;
-    margin-top: 15px;
+    width: 25%;
+    height: 70px;
 }
+
 #LinksPie a img{
     width: 45px;
     height: 45px;
-}
-article {
-    margin: auto;
-    padding: 0;
 }
