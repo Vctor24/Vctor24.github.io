@@ -53,14 +53,31 @@ header{
     width: 170px;
     height: 70px;
 }
+
+h1{
+    text-shadow: 2px 2px #59cbe8;;
+    width: 70%;
+    color: #20202d;
+    
+    text-decoration: underline;
+    margin-top: 20px;
+}
+
 main{
     background-color: white;
-    width: 70%;
+    width: 900px;
     margin: auto;
     padding: 0;
     height: auto;
     text-align: center; 
 }
+main p{
+    text-size-adjust: 40;
+    color: #20202d;
+     
+    font-size: x-large;
+}
+
 #info{
     text-align: left;
     padding: 5px;
@@ -106,11 +123,15 @@ main{
     
 }
 .foto1{
-    width: 33.33%;
+    width: 33%;
     
     padding-left: 10px;
     
     margin-right: 10px;
+}
+.foto1 img{
+    height: 150px;
+    width: 250px;
 }
 
 #foto4{
@@ -148,6 +169,8 @@ main{
     width: 100%;
     height: 50%;
     background-color: rgb(187, 187, 187);
+    border-radius: 4px;
+    box-shadow: 2px 2px 2px black;
 }
 #form2{
     margin-top: 25px;
@@ -156,6 +179,8 @@ main{
     width: 100%;
     height: 50%;
     background-color: rgb(187, 187, 187);
+    border-radius: 4px;
+    box-shadow: 2px 2px 2px black;
 }
 .nombreyapellidos{
     width: 50%;
@@ -166,27 +191,11 @@ main{
 }
 .direccionytelefono{
     
-    
     padding-left: 10px;
     
     margin-right: 10px;  
 }
-h1{
-    text-shadow: 2px 2px #59cbe8;;
-    width: 70%;
-    color: #20202d;
-    
-    text-decoration: underline;
-    margin-top: 20px;
-}
 
-
-main p{
-    text-size-adjust: 40;
-    color: #20202d;
-     
-    font-size: x-large;
-}
 .grid-container{
     display: grid;
     grid-template-columns: repeat(auto-fill,minmax(250px, 1fr));
